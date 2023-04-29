@@ -1,0 +1,71 @@
+Test case ID: Homepage elements
+Priority: Low
+Test case name: Check the homepage is displayed correctly
+Test script (Step-by-step):
+1. Open the browser
+2. Go to: "https://ecommerce-playground.lambdatest.io/"
+3. Check the homepage consists of the correct components
+Expected result per step:
+1. The browser is opened
+2. The homepage is displayed
+3. The homepage consists of the following components:
+-Header
+-Shop by category burger menu
+-Navigation bar
+-Main banner
+-Promotion section 1
+-Top trending categories section
+-Deals of the Day section
+-Top product section
+-Promotion section 2
+-Special offer section
+-Top collection section
+-Promotion banner
+-On-sale module
+-Under 99$ module
+-From the blog section
+-Footer
+-Back to top button
+
+//****************\\
+
+Test case ID: 2
+Priority: Low
+Test case name: Check the header component is displayed correctly
+Test script (Step-by-step):
+1. Open the browser
+2. Go to: "https://ecommerce-playground.lambdatest.io/"
+3. Check the header component 
+
+Expected result per step:
+1. The browser is opened
+2. The homepage is displayed
+3. The header consists of the following elements:
+-Lambdatest playground logo/home button
+-All Categories dropdown menu inside the search bar
+-Input field inside the search bar
+-Search button inside the search bar
+-Compare button
+-Wishlist button
+-Cart icon
+
+//****************\\
+
+Test case ID: 3
+Priority: Low
+Test case name: Check the Lambdatest playground logo/button
+Test script (Step-by-step):
+1. Open the browser
+2. Go to: "https://ecommerce-playground.lambdatest.io/"
+3. Check the logo/button element in the header component
+4. Click on the "Blog" item in the navigation bar component
+5. Click on the logo/button element in the header component
+
+Expected result per step:
+1. The browser is opened
+2. The homepage is displayed
+3. The logo/button element is displayed correctly
+4. The Blog page opens in the same browser tab "https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/home"
+5. The browser opens the home page "https://ecommerce-playground.lambdatest.io/index.php?route=common/home"
+
+//****************\\
