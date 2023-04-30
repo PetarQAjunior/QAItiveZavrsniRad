@@ -1,0 +1,5 @@
+1. Verify that a user can add a product to the cart from the product page.
+
+2. Verify that the product is added to the cart with the correct quantity and price.
+
+3. Verify that the user can view the cart and see the added product.
