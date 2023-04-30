@@ -21,7 +21,6 @@ Expected result per step:
 -Special offer section
 -Top collection section
 -Promotion banner
--On-sale module
 -Under 99$ module
 -From the blog section
 -Footer
@@ -29,7 +28,7 @@ Expected result per step:
 
 //****************\\
 
-Test case ID: 2
+Test case ID: Header elements
 Priority: Low
 Test case name: Check the header component is displayed correctly
 Test script (Step-by-step):
@@ -51,7 +50,7 @@ Expected result per step:
 
 //****************\\
 
-Test case ID: 3
+Test case ID: Site logo button 
 Priority: Low
 Test case name: Check the Lambdatest playground logo/button
 Test script (Step-by-step):
