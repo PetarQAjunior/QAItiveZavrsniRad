@@ -4,9 +4,4 @@
 2. Verify that an error message is displayed if
  the user tries to register with invalid credentials.
 
-3. Password Strength Validation
-Input: The user enters a weak password (e.g. less than 8 characters,
-no special characters)
-Expected Output: The user is prompted with an error message indicating
-that the password is weak and asked to choose a stronger password
-before proceeding with registration.
+3. Invalid registration - User already registered
