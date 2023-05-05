@@ -1,7 +1,7 @@
-1. Test case for user registration:
-
-2. Verify that a user can successfully register
+1. Verify that a user can successfully register
  on the site with valid credentials.
 
-3. Verify that an error message is displayed if
+2. Verify that an error message is displayed if
  the user tries to register with invalid credentials.
+
+3. Invalid registration - User already registered
