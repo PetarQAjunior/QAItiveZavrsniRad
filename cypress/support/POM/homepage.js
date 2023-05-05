@@ -32,6 +32,6 @@ const navigationBar = {
     blogButton: '#widget-navbar-217834 > .navbar-nav > :nth-child(3) > .icon-left > .info > .title',
     megaMenuButton: '.mega-menu > .both',
     addOnsButton: '#widget-navbar-217834 > .navbar-nav > :nth-child(5) > .nav-link > .info > .title',
-    myAccountButton: '#widget-navbar-217834 > .navbar-nav > :nth-child(6) > .nav-link'
+    myAccountButton: '#widget-navbar-217834 > ul > li:nth-child(6)'
 }
 export { homePage, header, navigationBar }
