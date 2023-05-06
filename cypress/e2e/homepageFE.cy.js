@@ -1,8 +1,10 @@
 import { homePage, header, navigationBar } from '../support/POM/homepage' ;
 
 describe('Frontend Homepage Tests', () => {
-  it('homepageElements', () => {
+  beforeEach('Visit url', () => {
     cy.visit('/')
+  })
+it('homepageElements', () => {
     cy.get(homePage.header)
       .should('exist')
     cy.get(homePage.navigationBar)
@@ -36,9 +38,7 @@ describe('Frontend Homepage Tests', () => {
     cy.get(homePage.backToTopButton)
       .should('exist')
   })
-
-  it('headerElements', () => {
-    cy.visit('/')
+it('headerElements', () => {
     cy.get(header.siteLogoButton)
       .should('exist')
     cy.get(header.allCategoriesDropdown)
@@ -56,7 +56,6 @@ describe('Frontend Homepage Tests', () => {
   })
 
   it('siteLogoButton', () => {
-    cy.visit('/')
     cy.get(header.siteLogoButton)
       .should('exist')
     cy.get(navigationBar.blogButton).click()

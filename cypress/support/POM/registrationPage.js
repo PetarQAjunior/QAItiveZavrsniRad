@@ -9,6 +9,6 @@ const registrationPage = {
     subscribeNo: ':nth-child(2) > .custom-control-label',
     privacyPolicy: '.float-right > .custom-control',
     continueButton: '.float-right > .btn',
-    continueButtonAfterRegistration: '.buttons > .btn'
+    continueButtonAfter: '.buttons > .btn'
 }
 export { registrationPage }

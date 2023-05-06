@@ -6,4 +6,4 @@ const componentsPage = {
     notificationViewCartButton: '.form-row > :nth-child(1) > .btn',
     notificationCheckoutButton: '.form-row > :nth-child(2) > .btn'
 }
-export {componentsPage } 
+export { componentsPage } 
