@@ -3,8 +3,12 @@ import { loginPage } from '../support/POM/loginPage';
 import { registrationPage } from '../support/POM/registrationPage';
 
 describe('Register Flow Tests', () => {
-    it('registerPositive', () => {
+
+    beforeEach('Visit url', () => {
         cy.visit('/')
+      })
+
+    it('registerPositive', () => {
         cy.get(navigationBar.myAccountButton).click()
         cy.url().should('include', '/index.php?route=account/login')
         cy.get(loginPage.continueButton).click()
@@ -25,7 +29,6 @@ describe('Register Flow Tests', () => {
 
     })
     it.only('registerEmptyFields', () => {
-        cy.visit('/')
         cy.get(navigationBar.myAccountButton).click()
         cy.url().should('include', '/index.php?route=account/login')
         cy.get(loginPage.continueButton).click()
@@ -36,7 +39,6 @@ describe('Register Flow Tests', () => {
     })
 
     it('registerInvalid', () => {
-        cy.visit('/')
         cy.get(navigationBar.myAccountButton).click()
         cy.url().should('include', '/index.php?route=account/login')
         cy.get(loginPage.continueButton).click()
