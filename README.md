@@ -1,6 +1,6 @@
 # QAItiveZavrsniRad
 
-This is the Repository made for QAItive Cypress course in which I will publish my final exam.
+This is the Repository made for "QAItive" Cypress course in which I will publish my final exam.
 
 For creating tests site LambdaTestPlayground is used
 "https://ecommerce-playground.lambdatest.io/"
@@ -17,3 +17,15 @@ Guidelines:
 8. The script should be made for automatically running tests
 9. All tests should run successfully
 10. The deadline is 05.05.2023.
+
+IMPORTANT!
+
+Plugin has been added, to successfully run tests you need
+to install a plugin by entering this in the terminal:
+
+" npm install cypress-real-events --save-dev "
+
+and add this to the cypress/support/e2e.js file:
+" import "cypress-real-events/support"; "
+
+More information on: https://github.com/dmtrKovalenko/cypress-real-events

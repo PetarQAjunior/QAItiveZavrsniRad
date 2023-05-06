@@ -34,4 +34,14 @@ const navigationBar = {
     addOnsButton: '#widget-navbar-217834 > .navbar-nav > :nth-child(5) > .nav-link > .info > .title',
     myAccountButton: '#widget-navbar-217834 > ul > li:nth-child(6)'
 }
-export { homePage, header, navigationBar }
+const topTrending = {
+    category1: '[aria-label="1 / 8"]',
+    category2: '[aria-label="2 / 8"]',
+    category3: '[aria-label="3 / 8"]',
+    category4: '[aria-label="4 / 8"]',
+    category5: '[aria-label="5 / 8"]',
+    category6: '[aria-label="6 / 8"]',
+    category7: '[aria-label="7 / 8"]',
+    category8: '[aria-label="8 / 8"]'
+}
+export { homePage, header, navigationBar, topTrending }
