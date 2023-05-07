@@ -1,0 +1,14 @@
+Test Case 1: Valid Search test
+Input: "Samsung Galaxy"
+Expected Output: A list of results related to "Samsung Galaxy"
+should be displayed.
+
+Test Case 2: Invalid Search test
+Input: "Burek sa mesom"
+Expected Output: The "There is no product that matches the
+search criteria." message should be displayed.
+
+Test Case 3: Partial Search test
+Input: "sam"
+Expected Output: A list of results related to "sam" should
+be displayed (such as "samsung").

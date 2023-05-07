@@ -74,7 +74,7 @@ it('Product is added to the cart, quantity and price correct', () => {
         cy.get(cartPage.removeFromCartButton).click()
         cy.get(cartPage.emptyCartContinueButton).click()
     })
-it.only('Complete the order', () => {
+it('Complete the order', () => {
     cy.get(navigationBar.myAccountButton).click()
         cy.url().should('include', '/index.php?route=account/login')
         cy.get(loginPage.emailField).type('bobanrajovic@011.rs')
