@@ -1,0 +1,5 @@
+1. Add two products to Compare and assert correct products are added.
+
+2. Add four products to Compare and assert correct products are added.
+
+3. Add to cart and remove button test
