@@ -44,4 +44,16 @@ const topTrending = {
     category7: '[aria-label="7 / 8"]',
     category8: '[aria-label="8 / 8"]'
 }
-export { homePage, header, navigationBar, topTrending }
+const topProducts = {
+    product1: '[aria-label="1 / 10"]',
+    product2: '[aria-label="2 / 10"]',
+    product3: '[aria-label="3 / 10"]',
+    product4: '[aria-label="4 / 10"]',
+    product5: '[aria-label="5 / 10"]',
+    product6: '[aria-label="6 / 10"]',
+    product7: '[aria-label="7 / 10"]',
+    product8: '[aria-label="8 / 10"]',
+    product9: '[aria-label="9 / 10"]',
+    product10: '[aria-label="10 / 10"]'
+}
+export { homePage, header, navigationBar, topTrending, topProducts }

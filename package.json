@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-run": "cypress run",
+    "1.registerFlow": "cypress run --spec cypress/e2e/registerFlow.cy.js",
+    "2.homepageFE": "cypress run --spec cypress/e2e/homepageFE.cy.js",
+    "3.buyingProducts": "cypress run --spec cypress/e2e/buyingProductsFlow.cy.js",
+    "4.searchFunction": "cypress run --spec cypress/e2e/searchFunctionTests.cy.js",
+    "5.compareProducts": "cypress run --spec cypress/e2e/compareProducts.cy.js"
   },
   "keywords": [],
   "author": "",
